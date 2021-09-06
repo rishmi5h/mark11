@@ -5,6 +5,7 @@
     /* outline: 1px solid red; */
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0.25rem;
+    
 }
 
 :root {
@@ -15,11 +16,20 @@ h1 {
     color: var(--primary-color);
 }
 
+label{
+    font-size: large
+}
+input{
+    font-size: large;
+}
 .container {
     text-align: center;
     margin: 0 auto;
 }
 
+.some-margin{
+    margin: 0.65rem;
+}
 input {
     border: var(--primary-color) 1px solid;
     text-decoration: none;
@@ -27,6 +37,7 @@ input {
 }
 
 button {
+    font-size: large;
     border: none;
     background-color: var(--primary-color);
     color: white;
@@ -37,7 +48,9 @@ button {
 .hide {
     display: none;
 }
-
+img{
+    width: 40%;
+}
 p {
     /* color: var(--primary-color); */
     font-size: large;
@@ -65,6 +78,6 @@ a {
     text-decoration: none;
 }
 
-img {
+/* img {
     color: var(--primary-color);
-}
+} */
