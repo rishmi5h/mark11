@@ -4,7 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Lucky Birthday</title>
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <h1>Is Your Birthday Lucky?</h1>
+      <div>
+        <label for="birthday"><b>Date of Birth : </b></label>
+        <input type="date" id="birthday" placeholder="dd/mm/yyyy" />
+      </div>
+      <div>
+        <label for="luckyNo"> <b> Lucky No :</b> </label>
+        <input type="tel" id="luckyNo" />
+      </div>
+      <button id="btn">Check</button>
+      <p id="output"></p>
+      <img class="lucky hide" src="assets/lucky.gif" alt="" />
+      <img class="unlucky hide" src="assets/unlucky.gif" alt="" />
+    </div>
+    <footer>
+      <!-- <p>hi</p> -->
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/rishmish/" target="_blank"
+            ><img src="assets/icons8-linkedin.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/rishimish" target="_blank"
+            ><img src="assets/icons8-github.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/rishabhmishrabu" target="_blank"
+            ><img src="assets/icons8-twitter.svg"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
 </html>
